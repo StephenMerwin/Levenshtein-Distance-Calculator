@@ -1,0 +1,40 @@
+Script started on 2022-10-17 23:04:36-0700
+]0;cs1st@cs1buntu: /media/sf_CS/485cs1st@cs1buntu:/media/sf_CS/485$ make
+make[1]: Entering directory '/media/sf_CS/485'
+g++ -g -Wall proj1.cpp -o proj1
+make[1]: Leaving directory '/media/sf_CS/485'
+]0;cs1st@cs1buntu: /media/sf_CS/485cs1st@cs1buntu:/media/sf_CS/485$ ./proj1
+Enter two words for the edit distance:
+Enter word #1: evaluation
+Enter word #2: elution
+The matrix is: 
+0|1|2|3|4|5|6|7|
+_|_|_|_|_|_|_|_|
+1|0|1|2|3|4|5|6|
+_|_|_|_|_|_|_|_|
+2|1|1|2|3|4|5|6|
+_|_|_|_|_|_|_|_|
+3|2|2|2|3|4|5|6|
+_|_|_|_|_|_|_|_|
+4|3|2|3|3|4|5|6|
+_|_|_|_|_|_|_|_|
+5|4|3|2|3|4|5|6|
+_|_|_|_|_|_|_|_|
+6|5|4|3|3|4|5|6|
+_|_|_|_|_|_|_|_|
+7|6|5|4|3|4|5|6|
+_|_|_|_|_|_|_|_|
+8|7|6|5|4|3|4|5|
+_|_|_|_|_|_|_|_|
+9|8|7|6|5|4|3|4|
+_|_|_|_|_|_|_|_|
+10|9|8|7|6|5|4|3|
+_|_|_|_|_|_|_|_|
+The edit distance is: 3
+Alignment is:
+ evaluation
+ e__lu_tion
+]0;cs1st@cs1buntu: /media/sf_CS/485cs1st@cs1buntu:/media/sf_CS/485$ exit
+exit
+
+Script done on 2022-10-17 23:05:00-0700
